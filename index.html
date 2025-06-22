@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="shortcut icon" href="./Imgs/icon.png" type="image/x-icon">
+    <meta name="theme-color" content="#98d773">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+          <button onclick="clearDisplay()">C</button>
+          <button onclick="deleteLast()">⌫</button>
+          <button onclick="appendValue('/')">÷</button>
+          <button onclick="appendValue('*')">×</button>
+    
+          <button onclick="appendValue('7')">7</button>
+          <button onclick="appendValue('8')">8</button>
+          <button onclick="appendValue('9')">9</button>
+          <button onclick="appendValue('-')">-</button>
+    
+          <button onclick="appendValue('4')">4</button>
+          <button onclick="appendValue('5')">5</button>
+          <button onclick="appendValue('6')">6</button>
+          <button onclick="appendValue('+')">+</button>
+    
+          <button onclick="appendValue('1')">1</button>
+          <button onclick="appendValue('2')">2</button>
+          <button onclick="appendValue('3')">3</button>
+          <button onclick="appendValue('0')">0</button>
+    
+          <button onclick="appendValue('.')">.</button>
+          <button class="equal" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+
+      <div class="footer">
+            
+        <div class="socials-list">
+            <a href=""><i class="ti-facebook"></i></a>
+            <a href=""><i class="ti-instagram"></i></a>
+            <a href=""><i class="ti-youtube"></i></a>
+            <a href=""><i class="ti-pinterest"></i></a>
+            <a href=""><i class="ti-twitter"></i></a>
+            <a href=""><i class="ti-linkedin"></i></a>
+        </div>
+        <p class="copyright">
+            Powered by <a href="">Navid Reza Meysami</a>
+        </p>
+        </div>
+      <script src="./scripts/script.js"></script>
+    </body>
+    </html>    
+</html>
